@@ -17,6 +17,6 @@ router
 
 router.route('/:updateUser')
 .put(updateUsers)
-// .delete(deleteUsers)
+.delete(deleteUsers)
 
 module.exports = router
